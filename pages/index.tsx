@@ -24,9 +24,6 @@ const Home: React.FC = () => {
             Kabinet 306
           </p>
           <p>
-            <a href="rozvrh_kuroedov.pdf">Rozvrh</a>
-          </p>
-          <p>
             Konzultační hodiny: středa 7:00 - 7:45
           </p>
         </Block>
@@ -35,20 +32,20 @@ const Home: React.FC = () => {
         <Title>Materiály</Title>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <Block>
-            <BlockTitle>HS 2. ročník</BlockTitle>
+            <BlockTitle>HS 3. ročník</BlockTitle>
             <p>
-              Powerpointové prezentace k výuce 2. ročníku předmětu HS.
+              Materiály k výuce 3. ročníku předmětu HS.
             </p>
-            <Button href="https://spsevuzlabine-my.sharepoint.com/:f:/g/personal/kuroedov_uzlabina_cz/Ev7Xr33JOFtBtrYHFlIJXtUBoU1KqoyfAbfXFIAnYAHmnQ?e=lTdrqu">
+            <Button href="https://spsevuzlabine-my.sharepoint.com/:f:/g/personal/kuroedov_uzlabina_cz/EqwJ-sOppotApNW8rbK2qL8BOD-2jgs_NxP4BWsjbvNMTA?e=Ssih0X">
               Odkaz
             </Button>
           </Block>
           <Block>
-            <BlockTitle>HS Skripta</BlockTitle>
+            <BlockTitle>HS 2. ročník</BlockTitle>
             <p>
-              Skripta k celému HS. Aktuálně rozpracované a nelze použít jako plnohodnotný studijní materiál, avšak můžou se hodit.
+              Powerpointové prezentace k výuce 2. ročníku předmětu HS.
             </p>
-            <Button href="HS_Skripta.md">
+            <Button href="https://spsevuzlabine-my.sharepoint.com/:f:/g/personal/kuroedov_uzlabina_cz/Ev7Xr33JOFtBtrYHFlIJXtUBoU1KqoyfAbfXFIAnYAHmnQ?e=YByyRJ">
               Odkaz
             </Button>
           </Block>

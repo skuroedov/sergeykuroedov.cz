@@ -2,7 +2,7 @@ import React from "react";
 
 export const Block: React.FC = props => {
   return <>
-    <div className="border border-2 rounded p-10 flex flex-col items-center space-y-4 text-center">
+    <div className="border-2 rounded-lg p-10 flex flex-col items-center space-y-4 text-center">
       {props.children}
     </div>
   </>
